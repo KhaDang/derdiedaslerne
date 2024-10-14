@@ -1,8 +1,9 @@
 from pprint import pprint
 import requests
-
-SHEETY_CATEGORIES_ENDPOINT = "PLACE YOUR SHEETY URL HERE"
-SHEETY_DYNAMIC_ENDPOINT = "PLACE YOUR SHEETY DYNAMIC URL HERE"
+# For example you structured your google spreadsheet with many sheets. The first sheet should be categories sheet and name exactly "Catergories"
+# The other sheets should be named as the topic that the words meaning
+SHEETY_CATEGORIES_ENDPOINT = "PLACE YOUR SHEETY URL HERE .../derDieDas/Categories"
+SHEETY_DYNAMIC_ENDPOINT = "PLACE YOUR SHEETY URL HERE .../derDieDas"
 class DataManager:
 
     def __init__(self):
