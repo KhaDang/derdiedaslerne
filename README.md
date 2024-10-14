@@ -23,5 +23,8 @@ Der-Die-Das falsh card is a desktop open source studying app. Through the use of
 ## Usage
 In the data_manager.py
 Replace your own sheety endpoint here:
-SHEETY_CATEGORIES_ENDPOINT = "https://..."
-SHEETY_DYNAMIC_ENDPOINT = "https://..."
+
+  SHEETY_CATEGORIES_ENDPOINT = "https://...".
+  
+  SHEETY_DYNAMIC_ENDPOINT = "https://...".
+  
