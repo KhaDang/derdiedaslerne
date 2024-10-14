@@ -1,8 +1,8 @@
 from pprint import pprint
 import requests
 
-SHEETY_CATEGORIES_ENDPOINT = "https://api.sheety.co/1754305b3bd13450e62ec977b56a0781/derDieDas/categories"
-SHEETY_DYNAMIC_ENDPOINT = "https://api.sheety.co/1754305b3bd13450e62ec977b56a0781/derDieDas/"
+SHEETY_CATEGORIES_ENDPOINT = "PLACE YOUR SHEETY URL HERE"
+SHEETY_DYNAMIC_ENDPOINT = "PLACE YOUR SHEETY DYNAMIC URL HERE"
 class DataManager:
 
     def __init__(self):
